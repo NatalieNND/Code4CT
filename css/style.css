@@ -6,4 +6,19 @@ header {
   text-align: center;
   padding-top: 60px; }
 
+nav {
+  text-align: center;
+  word-spacing: 10px; }
+
+.btn {
+  background-color: #ee534f;
+  width: 95px;
+  height: 30px;
+  border-radius: 5px; }
+
+button {
+  width: 95px;
+  height: 30px;
+  border-radius: 5px; }
+
 /*# sourceMappingURL=style.css.map */
