@@ -1,34 +1,15 @@
-$background-color: black;
-$font-color: white;
-$btn: #ee534f;
+// partials imports
 
-header{
- background-color: $background-color;
- color: $font-color;
- height: 350px;
- width: 100%;
- text-align: center;
- padding-top: 60px;
-}
+@import 'partials/variables',
+        'partials/base',
+        'partials/layout',
+        'partials/responsiveness';
 
-nav {
-    text-align: center;
-    word-spacing: 10px;
-     
-}
 
-.btn {
-    background-color: $btn;
-    width: 95px;
-    height: 30px;
-    border-radius: 5px;
-     
-}
 
-button {
-    width: 95px;
-    height: 30px;
-    border-radius: 5px;
-    
-}
+
+
+
+
+
 

@@ -1,0 +1,49 @@
+// layouts
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 20px;
+}
+
+// nav section
+nav {
+    text-align: center;
+    word-spacing: 10px;
+     
+}
+
+
+.hr {
+    width: 300px;
+    float: left; 
+}
+
+.line {
+    width: 50px;
+    height: 5px;
+    background-color: #ee534f;
+    
+}
+
+// article div styling
+article{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px;
+}
+
+
+// pics styling div
+.pics{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.pics img{
+    width: 250px;
+    height: 200px;
+}
+
