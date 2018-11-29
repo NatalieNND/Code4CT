@@ -8,12 +8,32 @@ header{
     padding-top: 60px;
    }
 
+   .main-container {
+      color: $font-color;
+      background-color: $background-color;  
+      padding-top: 60px;
+   }
+
    .icons {
       font-size: 60px;
       display: grid;
       grid-template-columns: auto auto auto auto;
-      padding-left: 200px;
+      padding-left: 150px;
+      color:  #ee534f;
+      text-align: center;
     
    }
 
-   
+   .text {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      text-align: center;
+      padding-left: 200px;
+   }
+
+   .description {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      padding-left: 50px;
+      text-align: center;
+   }

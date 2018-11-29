@@ -18,11 +18,30 @@ header {
   text-align: center;
   padding-top: 60px; }
 
+.main-container {
+  color: white;
+  background-color: black;
+  padding-top: 60px; }
+
 .icons {
   font-size: 60px;
   display: grid;
   grid-template-columns: auto auto auto auto;
+  padding-left: 150px;
+  color: #ee534f;
+  text-align: center; }
+
+.text {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  text-align: center;
   padding-left: 200px; }
+
+.description {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding-left: 50px;
+  text-align: center; }
 
 h1 {
   font-size: 50px; }
@@ -32,7 +51,15 @@ p {
 
 nav {
   text-align: center;
-  word-spacing: 10px; }
+  word-spacing: 10px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5px;
+  text-align: center;
+  color: #666666; }
 
 .hr {
   width: 300px;
@@ -41,7 +68,8 @@ nav {
 .line {
   width: 50px;
   height: 5px;
-  background-color: #ee534f; }
+  background-color: #ee534f;
+  float: left; }
 
 article {
   display: grid;
