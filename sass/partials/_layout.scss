@@ -57,4 +57,20 @@ article{
     height: 200px;
 }
 
+.container img {
+    width: 250px;
+    height: 200px;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+   
+}
+
 

@@ -10,17 +10,17 @@ button {
   width: 95px;
   height: 30px; }
 
+.main-container {
+  color: white;
+  background-color: black;
+  padding-top: 60px; }
+
 header {
   background-color: black;
   color: white;
   height: 350px;
   width: 100%;
   text-align: center;
-  padding-top: 60px; }
-
-.main-container {
-  color: white;
-  background-color: black;
   padding-top: 60px; }
 
 .icons {
@@ -83,5 +83,17 @@ article {
 .pics img {
   width: 250px;
   height: 200px; }
+
+.container img {
+  width: 250px;
+  height: 200px; }
+
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr; }
 
 /*# sourceMappingURL=style.css.map */
