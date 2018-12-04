@@ -62,15 +62,17 @@ article{
     height: 200px;
 }
 
-section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
 
-}
 .container {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-right: 45%;
+    padding-left: 50px;
    
 }
+
+
+
+
 
 
