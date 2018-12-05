@@ -67,7 +67,7 @@ nav {
 
 .line {
   width: 50px;
-  height: 5px;
+  height: 1px;
   background-color: #ee534f;
   float: left; }
 
@@ -90,8 +90,12 @@ article {
 
 .container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  margin-right: 45%;
+  grid-template-columns: 1fr 1fr auto;
+  margin-right: 50%;
   padding-left: 50px; }
+
+.pic img {
+  margin-left: 150px;
+  width: 250%; }
 
 /*# sourceMappingURL=style.css.map */
