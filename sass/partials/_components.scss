@@ -8,8 +8,6 @@ header{
     padding-top: 60px;
    }
 
-  
-
    .icons {
       font-size: 60px;
       display: grid;
@@ -32,4 +30,13 @@ header{
       grid-template-columns: auto auto auto auto;
       padding-left: 50px;
       text-align: center;
+   }
+
+   .subscribe {
+       text-align: center;
+   }
+
+   .footer {
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr 1fr;
    }
