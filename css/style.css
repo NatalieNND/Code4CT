@@ -19,6 +19,11 @@ button {
   padding-top: 60px;
 }
 
+.end {
+  display: grid;
+  grid-template-columns: 1fr fr;
+}
+
 header {
   background-color: black;
   color: white;
@@ -57,7 +62,7 @@ header {
 
 .footer {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 h1 {
