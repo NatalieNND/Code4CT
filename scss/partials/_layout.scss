@@ -81,6 +81,7 @@ article{
 .pic img {
     margin-left: 150px;
     width: 250%;
+    height: 300px;
     
 }
 
@@ -119,6 +120,8 @@ article{
 
 .logos {
  background-color: black; 
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 // about page styling

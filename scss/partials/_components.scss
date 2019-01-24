@@ -11,7 +11,7 @@ header{
    .icons {
       font-size: 60px;
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
       padding-left: 150px;
       color:  #ee534f;
       text-align: center;
@@ -47,3 +47,11 @@ header{
        height: 80px;
        background-color: #ee534f;
    }
+
+//    contact page styling
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-right: 50%;
+}
+
