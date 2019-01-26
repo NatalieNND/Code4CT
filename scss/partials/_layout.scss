@@ -19,8 +19,17 @@ nav {
     font-stretch: normal;
     line-height: 1.5px;
     text-align: center;
-    color: #666666;
+    color: $grey;
+
      
+}
+
+a :hover {
+    color:$btn
+}
+
+a:active {
+    color: #ee534f;
 }
 
 
