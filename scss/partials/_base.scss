@@ -17,13 +17,17 @@ button {
     height: 30px;
 }
 
+.send {
+    background-color: #ee534f;
+}
+
 
 .search {
     height: 30px;
-    border-radius: 4px;
-    background-color: #e7e7e7;
+    // border-radius: 4px;
+    // background-color: #e7e7e7;
     text-align: right;
-    padding-bottom: 0px;
+    padding-bottom: 50px;
 
     
 }
@@ -39,6 +43,3 @@ button {
      grid-template-columns: 1fr fr;
  }
 
- nav, ul {
-     color: $grey;
- }

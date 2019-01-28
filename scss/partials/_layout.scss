@@ -20,6 +20,7 @@ nav {
     line-height: 1.5px;
     text-align: center;
     color: $grey;
+    padding-bottom: 60px;
      
 }
 
@@ -105,7 +106,7 @@ article{
   letter-spacing: normal;
   text-align: center;
   color: #ffffff;
-    width: 1600px;
+    width: 1700px;
     height: 200px;
     background-color: black;
     padding-top: 50px;
@@ -120,9 +121,52 @@ article{
 }
 
 .logos {
+    height: 250px;;
  background-color: black; 
  display: grid;
  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+ width: 100%;
+ overflow: hidden;
+
+ display: inline-block;
+
+ animation-name: slider;
+
+ animation-duration: 20s;
+
+ animation-iteration-count: infinite;
+
+ animation-timing-function: linear;
+
+ position: relative; left:100%;
+
+
+}
+
+.logos img {
+
+
+        display: inline-block;
+    
+        margin-right:3.125em;
+    
+
+}
+
+@keyframes slider{
+
+    100%{
+
+        position: relative;left:-3000px;
+
+    }
+
+}
+
+.logo2 img {
+    height: 100px;
+    
 }
 
 // about page styling
@@ -151,6 +195,19 @@ article{
     width: 500px;
     height: 300px;
 
+}
+
+.mapouter {
+    text-align: right;
+    height: 500px;
+    width: 1500px;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 500px;
+    width: 1500px;
 }
 
 

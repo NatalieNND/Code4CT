@@ -13,12 +13,14 @@ button {
   height: 30px;
 }
 
+.send {
+  background-color: #ee534f;
+}
+
 .search {
   height: 30px;
-  border-radius: 4px;
-  background-color: #e7e7e7;
   text-align: right;
-  padding-bottom: 0px;
+  padding-bottom: 50px;
 }
 
 .main-container {
@@ -30,10 +32,6 @@ button {
 .end {
   display: grid;
   grid-template-columns: 1fr fr;
-}
-
-nav, ul {
-  color: #666666;
 }
 
 header {
@@ -77,7 +75,12 @@ header {
 
 .information {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+}
+
+.information {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .end {
@@ -115,7 +118,7 @@ header {
 }
 
 img {
-  width: 300px;
+  width: 350px;
   height: 200px;
 }
 
@@ -131,7 +134,7 @@ button:hover {
   font-size: 20px;
 }
 
-h1, h2 {
+.highlight {
   text-align: center;
 }
 
@@ -159,6 +162,7 @@ nav {
   line-height: 1.5px;
   text-align: center;
   color: #666666;
+  padding-bottom: 60px;
 }
 
 .hr {
@@ -231,7 +235,7 @@ article {
   letter-spacing: normal;
   text-align: center;
   color: #ffffff;
-  width: 1600px;
+  width: 1700px;
   height: 200px;
   background-color: black;
   padding-top: 50px;
@@ -244,9 +248,34 @@ article {
 }
 
 .logos {
+  height: 250px;
   background-color: black;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  width: 100%;
+  overflow: hidden;
+  display: inline-block;
+  animation-name: slider;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  position: relative;
+  left: 100%;
+}
+
+.logos img {
+  display: inline-block;
+  margin-right: 3.125em;
+}
+
+@keyframes slider {
+  100% {
+    position: relative;
+    left: -3000px;
+  }
+}
+.logo2 img {
+  height: 100px;
 }
 
 .percent {
@@ -272,6 +301,19 @@ article {
 .intro img {
   width: 500px;
   height: 300px;
+}
+
+.mapouter {
+  text-align: right;
+  height: 500px;
+  width: 1500px;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 500px;
+  width: 1500px;
 }
 
 /*# sourceMappingURL=style.css.map */

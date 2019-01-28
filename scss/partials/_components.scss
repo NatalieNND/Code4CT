@@ -44,8 +44,13 @@ header{
 
    .information {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
 
+   }
+
+   .information {
+       display: grid;
+       grid-template-columns: 1fr 1fr 1fr 1fr;
    }
    .end {
        display: grid;
@@ -88,7 +93,7 @@ header{
 }
 
 img {
-    width: 300px;
+    width: 350px;
     height: 200px;
 }
 
@@ -106,7 +111,7 @@ button:hover {
     
 }
 
-h1,h2 {
+.highlight {
     text-align: center;
 }
 
