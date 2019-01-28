@@ -20,17 +20,9 @@ nav {
     line-height: 1.5px;
     text-align: center;
     color: $grey;
-
      
 }
 
-a :hover {
-    color:$btn
-}
-
-a:active {
-    color: #ee534f;
-}
 
 
 .hr {
@@ -102,7 +94,7 @@ article{
 .counter {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    width: 95px;
+    width: 60px;
   height: 24px;
   font-family: Poppins;
   font-size: 30px;
@@ -113,7 +105,7 @@ article{
   letter-spacing: normal;
   text-align: center;
   color: #ffffff;
-    width: 1990px;
+    width: 1600px;
     height: 200px;
     background-color: black;
     padding-top: 50px;
@@ -160,6 +152,8 @@ article{
     height: 300px;
 
 }
+
+
 
 
 

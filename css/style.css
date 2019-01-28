@@ -18,6 +18,7 @@ button {
   border-radius: 4px;
   background-color: #e7e7e7;
   text-align: right;
+  padding-bottom: 0px;
 }
 
 .main-container {
@@ -29,6 +30,10 @@ button {
 .end {
   display: grid;
   grid-template-columns: 1fr fr;
+}
+
+nav, ul {
+  color: #666666;
 }
 
 header {
@@ -43,7 +48,7 @@ header {
 .icons {
   font-size: 60px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: auto auto auto auto;
   padding-left: 150px;
   color: #ee534f;
   text-align: center;
@@ -51,15 +56,13 @@ header {
 
 .text {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: auto auto auto auto;
   text-align: center;
-  padding-left: 30%;
 }
 
 .description {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  padding-left: 50px;
+  grid-template-columns: auto auto auto auto;
   text-align: center;
 }
 
@@ -74,7 +77,7 @@ header {
 
 .information {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 .end {
@@ -96,9 +99,45 @@ header {
   height: 200px;
 }
 
-.course {
+.mySlides1 {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 300px 300px 300px 300px;
+}
+
+.mySlides2 {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+}
+
+.mySlides3 {
+  display: grid;
+  grid-template-columns: 300px 300px 300px 300px;
+}
+
+img {
+  width: 300px;
+  height: 200px;
+}
+
+button:hover {
+  background-color: #ee534f;
+}
+
+.courses {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  text-align: center;
+  font-size: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.course1 {
+  border: red solid 1px;
+  background-color: red;
 }
 
 h1 {
@@ -120,14 +159,6 @@ nav {
   line-height: 1.5px;
   text-align: center;
   color: #666666;
-}
-
-a :hover {
-  color: #ee534f;
-}
-
-a:active {
-  color: #ee534f;
 }
 
 .hr {
@@ -189,7 +220,7 @@ article {
 .counter {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  width: 95px;
+  width: 60px;
   height: 24px;
   font-family: Poppins;
   font-size: 30px;
@@ -200,7 +231,7 @@ article {
   letter-spacing: normal;
   text-align: center;
   color: #ffffff;
-  width: 1990px;
+  width: 1600px;
   height: 200px;
   background-color: black;
   padding-top: 50px;
